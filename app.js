@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 app.get('/getHelps', (req, res) => {
     res.setHeader('Content-Type', 'application/json');
     const databaseResponse = database.getDatabaseData();
-    console.log(databaseResponse);
+    
     res.status(200).send(JSON.stringify(databaseResponse));
 });
 
