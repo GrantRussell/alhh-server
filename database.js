@@ -1,6 +1,5 @@
 function getDatabaseData(){
-    const fakeDatabaseData = {
-        helps: [
+    const fakeDatabaseData = [
             {
                 title: 'Need to move a couch',
                 address: '123 Beaker St, Logan UT',
@@ -13,8 +12,7 @@ function getDatabaseData(){
                 title: 'Need help cutting toe nails',
                 address: '10 N Main St, Logan UT',
             }
-        ]
-    };
+        ];
 
     return fakeDatabaseData;
 }
